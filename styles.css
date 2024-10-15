@@ -1,30 +1,131 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    max-width: 500px;
-    
+    display: flex;
+    flex-direction: column;
 }
 
-.headerlinks {
-    border-style: dotted;
-    flex: 1;
-    
-    
-    }
+.headerflexbox {
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+a {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 900;
+}
+
+li {
+    list-style-type: none;
+    outline-style: auto;
+    outline-color: goldenrod;
+    outline-width: 3px;
+    width: 155px;
+    height: 208px;
+}
+
+
 
 .header {
-    border-style: dotted;
-    height: 35px;
-    width: 300px;
-     
+    flex: 1;
+    background-color: red;
+    height: 50px;
+    color: gold;
+    border-top: solid 5px;
+    border-left: solid 5px;
+    border-bottom: solid 5px;
+    font-size: 35px;
+    font-weight: 900;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 19px;
+    align-self: flex-end;
+    min-width: fit-content;
 }
 
-.mainbody {
+.tiktok {
     background-color: red;
+    padding-left: 5px;
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    border-right: solid 5px;
+    color: gold;
+    font-size: 105%;
+    padding-right: 10px;
+    }
+
+.insta {
+ background-color: red;
+ border-top: solid 5px;
+ border-bottom: solid 5px;
+ color: gold;
+ font-size: 105%;
+}
+
+.mainflexcontainer {
+display: flex;
+}
+
+
+.mainbody {
+    background-color: goldenrod;
+    border-left: solid 5px;
+    border-right: solid 5px;
+    border-color: gold;
+    height: 200vh;
+    width: 200px;
+    flex: 1 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 75px;
+}
+
+.leftsidebar {
+    background-color: red;
+    flex: 1 0 auto;
+    max-width: 230px;
+    min-width: fit-content;
+    max-height: 200vh;
+    border-right: solid 5px;
+    color: gold;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+p{
+    color: red;
+    font-weight: 700;
+}
+
+
+
+
+h3{
+    color: gold;
+    
+}
+h1{
+    color:gold;
+    border-left: solid 5px red;
+    border-bottom: solid 5px red;
+    padding-left: 2px;
+    width: fit-content;
 }
 
 .footer {
-    background-color: blue;
-    height: 75px;
+    background-color: goldenrod;
+    border-top: red solid 5px;
+    border-left:  solid 5px;
+    border-right: solid 5px;
+    border-color: gold;
+    flex: 1 0 auto;
+    margin-top: auto;
+    height: 80px;
+    flex-wrap: wrap;
+    font-weight: 800;
+    outline-style: solid;
+    outline-color: red;
+    padding: 75px;
     
 }
+
