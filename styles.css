@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    max-width: 500px;
+    
+}
+
+.headerlinks {
+    border-style: dotted;
+    flex: 1;
+    
+    
+    }
+
+.header {
+    border-style: dotted;
+    height: 35px;
+    width: 300px;
+     
+}
+
+.mainbody {
+    background-color: red;
+}
+
+.footer {
+    background-color: blue;
+    height: 75px;
+    
+}
